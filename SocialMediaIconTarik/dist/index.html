@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Social Media Icons hover effect </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="path/to/sharer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+<div id="heart">
+<i class="fa fa-heart-o fa-2x"></i>
+</div>
+<script>
+  $( "#heart" ).click(function() {
+    document.getElementById('icons').style.display = "block";
+  });
+</script>
+<div id="icons" style="display:none;">
+<ul>
+  <li>
+    <!-- chrome extension link not daily -->
+    <a href="https://www.linkedin.com/" target="_blank" class="button" data-sharer="facebook" data-title="Checkout Sharer.js!" data-hashtags="awesome, sharer.js" data-url="https://dayliii.com/"> 
+      <i class="fab fa-facebook-f icon" ></i></a>
+  </li>
+  <li>
+    <a href="#" href="https://www.linkedin.com/" target="_blank" class="button" data-sharer="twitter" data-title="Checkout Sharer.js!" data-hashtags="awesome, sharer.js" data-url="https://ellisonleao.github.io/sharer.js/"><i class="fab fa-twitter icon"></i></a>
+  </li>
+  <li>
+    <a href="#" class="button" data-sharer="linkedin" data-url="https://ellisonleao.github.io/sharer.js/">
+      <i class="fab fa-linkedin-in icon"></i>
+    </a>
+  </li>
+</ul> 
+</div>
+
+
+  
+</body>
+</html>
